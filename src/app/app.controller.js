@@ -1,6 +1,6 @@
 class appController {
     constructor() {
-      this.name = 'User';
+      this.name = 'App Component';
     }
   }
   

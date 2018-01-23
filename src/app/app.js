@@ -2,15 +2,17 @@ import 'angular-animate';
 import 'angular-aria';
 import 'angular-messages';
 import 'angular-material';
-import appComponent from './app.component';
+import Components from './components/components';
+import AppComponent from './app.component';
 
 const appModule = angular.module('app', [
     'ngAnimate',
     'ngAria',
     'ngMessages',
-    'ngMaterial'
+    'ngMaterial',
+    Components
 ])
 
-.component('app', appComponent)
+.component('app', AppComponent)
 
 export default appModule;

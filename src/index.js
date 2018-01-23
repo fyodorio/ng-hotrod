@@ -1,5 +1,5 @@
 import angular from 'angular';
-import app from './app/app'
+import app from './app/app';
 
 const component = () => {
   const element = document.createElement('div');
@@ -14,5 +14,3 @@ const component = () => {
 }
 
 document.body.appendChild(component());
-
-angular.bootstrap(document, 'app')
