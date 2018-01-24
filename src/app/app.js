@@ -15,6 +15,6 @@ const appModule = angular.module('app', [
     Services
 ])
 
-.component('app', AppComponent)
+.component('app', AppComponent);
 
 export default appModule;

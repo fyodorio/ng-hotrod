@@ -7,7 +7,6 @@ class PageHomeController {
     changePageTo(index) {
       this.NavigationService.setPage(index);
     }
-
   }
   
 export default PageHomeController;

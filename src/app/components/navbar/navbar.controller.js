@@ -8,7 +8,6 @@ class NavbarController {
     openSidebar() {
       this.UiStateService.toggleSidebar('left');
     }
-
   }
   
 export default NavbarController;

@@ -7,7 +7,6 @@ class UiStateService {
     toggleSidebar(id) {
         this.$mdSidenav(id).toggle();
     }
-
   }
   
 export default UiStateService;

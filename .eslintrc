@@ -1,0 +1,236 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "angular": true,
+    "go": true
+  },
+  "plugins": ["angular"], // https://github.com/Gillespie59/eslint-plugin-angular
+  "rules": {
+    // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/timeout-service.md
+    "angular/timeout-service": "error",
+
+    // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/interval-service.md
+    "angular/interval-service": "error",
+
+    // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/document-service.md
+    "angular/document-service": "error",
+    
+    // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/directive-restrict.md
+    "angular/directive-restrict": [2, {"restrict":"A"} ],
+
+    // 2.1 https://github.com/airbnb/javascript#references--prefer-const
+    "prefer-const": "error",
+    "no-const-assign": "error",
+
+    // 2.2 https://github.com/airbnb/javascript#references--disallow-var
+    "no-var": "error",
+
+    // 3.1 https://github.com/airbnb/javascript#objects--no-new
+    "no-new-object": "error",
+
+    // 4.1 https://github.com/airbnb/javascript#arrays--literals
+    "no-array-constructor": "error",
+
+    // 4.6 https://github.com/airbnb/javascript#arrays--callback-return
+    "array-callback-return": "error",
+
+    // 5.1 https://github.com/airbnb/javascript#destructuring--object
+    // 5.2 https://github.com/airbnb/javascript#destructuring--array
+    "prefer-destructuring": ["error", {
+      "array": true,
+      "object": true
+    }, {
+      "enforceForRenamedProperties": false
+    }],
+
+    // 6.1 https://github.com/airbnb/javascript#strings--quotes
+    "quotes": ["error", "single", { "avoidEscape": true }],
+
+    // 6.3 https://github.com/airbnb/javascript#es6-template-literals
+    "prefer-template": "error",
+    "template-curly-spacing": "error",
+
+    // 6.4 https://github.com/airbnb/javascript#strings--eval
+    "no-eval": "error",
+
+    // 6.5 https://github.com/airbnb/javascript#strings--escaping
+    "no-useless-escape": "error",
+
+    // 7.3 https://github.com/airbnb/javascript#functions--in-blocks
+    "no-loop-func": "error",
+
+    // 7.6 https://github.com/airbnb/javascript#es6-rest
+    "prefer-rest-params": "error",
+
+    // 7.10 https://github.com/airbnb/javascript#functions--constructor
+    "no-new-func": "error",
+
+    // 7.11 https://github.com/airbnb/javascript#functions--signature-spacing
+    // 19.2 https://github.com/airbnb/javascript#whitespace--before-blocks
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": ["error", "always"],
+
+    // 7.13 https://github.com/airbnb/javascript#functions--reassign-params
+    "no-param-reassign": ["error", { "props": false }],
+
+    // 8.1 https://github.com/airbnb/javascript#arrows--use-them
+    "prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ],
+    "arrow-spacing": "error",
+
+    // 8.2 https://github.com/airbnb/javascript#arrows--implicit-return
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+
+    // 8.5 https://github.com/airbnb/javascript#arrows--confusing
+    "no-confusing-arrow": ["error", {"allowParens": true}],
+
+    // 13.1 https://github.com/airbnb/javascript#variables--const
+    "no-undef": "error",
+
+    // 13.2 https://github.com/airbnb/javascript#variables--one-const
+    "one-var": ["error", "never"],
+
+    // 13.5 https://github.com/airbnb/javascript#variables--no-chain-assignment
+    "no-multi-assign": "error",
+
+    // 15.1 https://github.com/airbnb/javascript#comparison--eqeqeq
+    "eqeqeq": ["error", "always"],
+
+    // 15.5 https://github.com/airbnb/javascript#comparison--switch-blocks
+    "no-case-declarations": "error",
+
+    // 15.6 https://github.com/airbnb/javascript#comparison--nested-ternaries
+    "no-nested-ternary": "error",
+
+    // 15.7 https://github.com/airbnb/javascript#comparison--unneeded-ternary
+    "no-unneeded-ternary": "error",
+
+    // 15.8 https://github.com/airbnb/javascript#comparison--no-mixed-operators
+    "no-mixed-operators": "error",
+
+    // 16.1 https://github.com/airbnb/javascript#blocks--braces
+    "nonblock-statement-body-position": ["error", "beside"],
+
+    // 16.2 https://github.com/airbnb/javascript#blocks--cuddled-elses
+    "brace-style": "error",
+
+    // 18.3 https://github.com/airbnb/javascript#comments--spaces
+    "spaced-comment": ["error", "always"],
+
+    // 19.3 https://github.com/airbnb/javascript#whitespace--around-keywords
+    "keyword-spacing": ["error", { "before": true }],
+
+    // 19.4 https://github.com/airbnb/javascript#whitespace--infix-ops
+    "space-infix-ops": "error",
+
+    // 19.9 https://github.com/airbnb/javascript#whitespace--in-parens
+    "space-in-parens": ["error", "never"],
+
+    // 19.10 https://github.com/airbnb/javascript#whitespace--in-brackets
+    "array-bracket-spacing": ["error", "never"],
+
+    // 19.11 https://github.com/airbnb/javascript#whitespace--in-braces
+    "object-curly-spacing": ["error", "never"],
+
+    // 19.12 https://github.com/airbnb/javascript#whitespace--max-len
+    "max-len": ["error", 120],
+
+    // 20.1 https://github.com/airbnb/javascript#commas--leading-trailing
+    "comma-style": ["error", "last"],
+
+    // 21.1 https://github.com/airbnb/javascript#semicolons--required
+    "semi": ["error", "always"],
+
+    // 22.3 https://github.com/airbnb/javascript#coercion--numbers
+    // 22.6 https://github.com/airbnb/javascript#coercion--booleans
+    "radix": "error",
+    "no-new-wrappers": "error",
+
+    // 23.1 https://github.com/airbnb/javascript#naming--descriptive
+    "id-length": ["error", { "min": 2, "exceptions": ["i", "j", "x", "y", "e", "$"] }],
+
+    // 23.2 https://github.com/airbnb/javascript#naming--camelCase
+    // 23.7 https://github.com/airbnb/javascript#naming--camelCase-default-export
+    "camelcase": "error",
+
+    // 23.3 https://github.com/airbnb/javascript#naming--camelCase
+    "new-cap": "error",
+
+    // 24.1 https://eslint.org/docs/rules/no-unused-vars
+    "no-unused-vars": "error",
+
+    // 24.2 https://eslint.org/docs/rules/no-multiple-empty-lines.html
+    "no-multiple-empty-lines": "error",
+
+    // 24.3 https://eslint.org/docs/rules/operator-linebreak.html
+    "operator-linebreak": ["error", "before"],
+
+    // 24.4 https://eslint.org/docs/rules/key-spacing.html
+    "key-spacing": ["error", { "beforeColon": false }],
+
+    // 24.5 https://eslint.org/docs/rules/no-debugger.html
+    "no-debugger": "error",
+
+    // 24.6 https://eslint.org/docs/rules/no-inner-declarations.html
+    "no-inner-declarations": "error",
+
+    // 24.7 https://eslint.org/docs/rules/no-invalid-regexp.html
+    "no-invalid-regexp": "error",
+
+    // 24.8 https://eslint.org/docs/rules/no-lone-blocks.html
+    "no-lone-blocks": "error",
+
+    // 24.9 https://eslint.org/docs/rules/no-unreachable.html
+    "no-unreachable": "error",
+
+    // 24.10 https://eslint.org/docs/rules/no-useless-constructor.html
+    "no-useless-constructor": "error",
+
+    // 24.11 https://eslint.org/docs/rules/object-property-newline.html
+    "object-property-newline": "error",
+
+    // 24.12 https://eslint.org/docs/rules/padded-blocks.html
+    "padded-blocks": ["error", "never"],
+
+    // 24.13 https://eslint.org/docs/rules/valid-typeof.html
+    "valid-typeof": "error",
+
+    // 24.14 https://eslint.org/docs/rules/yoda.html
+    "yoda": "error",
+
+    // 24.15 https://eslint.org/docs/rules/max-lines.html
+    "max-lines": ["error", 500]
+
+    // no rules for
+
+    // 3.8 https://github.com/airbnb/javascript#objects--rest-spread
+    // 4.3 https://github.com/airbnb/javascript#es6-array-spreads
+    // 7.7 https://github.com/airbnb/javascript#es6-default-parameters
+    // 7.8 https://github.com/airbnb/javascri pt#functions--default-side-effects
+    // 7.9 https://github.com/airbnb/javascript#functions--defaults-last
+    // 7.15 https://github.com/airbnb/javascript#functions--signature-invocation-indentation
+    // 9.1 https://github.com/airbnb/javascript#constructors--use-class
+    // 9.2 https://github.com/airbnb/javascript#constructors--extends
+    // 9.3 https://github.com/airbnb/javascript#constructors--chaining
+    // 10.7 https://github.com/airbnb/javascript#modules--imports-first
+    // 10.8 https://github.com/airbnb/javascript#modules--multiline-imports-over-newlines
+    // 11.1 https://github.com/airbnb/javascript#iterators--nope
+
+    // 13.3 https://github.com/airbnb/javascript#variables--const-let-group
+    // 15.3 https://github.com/airbnb/javascript#comparison--shortcuts
+    // 17.1 https://github.com/airbnb/javascript#control-statements
+    // 18.4 https://github.com/airbnb/javascript#comments--actionitems
+    // 18.5 https://github.com/airbnb/javascript#comments--fixme
+    // 18.6 https://github.com/airbnb/javascript#comments--todo
+    // 19.7 https://github.com/airbnb/javascript#whitespace--after-blocks
+    // 23.8 https://github.com/airbnb/javascript#naming--PascalCase-singleton
+    // 23.9 https://github.com/airbnb/javascript#naming--Acronyms-and-Initialisms
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
+
+}

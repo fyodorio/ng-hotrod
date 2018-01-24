@@ -9,7 +9,6 @@ class NavigationService {
         this.currentPage = pageIndex;
         this.currentPageTitle = this.pageTitles[pageIndex];
     }
-
   }
   
 export default NavigationService;

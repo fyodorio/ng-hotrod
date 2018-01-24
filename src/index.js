@@ -1,3 +1,4 @@
+/* eslint-disable */
 import angular from 'angular';
 import app from './app/app';
 
@@ -11,6 +12,6 @@ const component = () => {
   `;
 
   return element;
-}
+};
 
 document.body.appendChild(component());

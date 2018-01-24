@@ -7,7 +7,6 @@ class SidebarController {
     closeSidebar() {
       this.UiStateService.toggleSidebar('left');
     }
-
   }
   
 export default SidebarController;
