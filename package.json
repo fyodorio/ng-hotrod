@@ -18,6 +18,7 @@
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.9",
     "file-loader": "^1.1.6",
+    "gh-pages": "^1.1.0",
     "html-webpack-plugin": "^2.30.1",
     "mdi": "^2.1.19",
     "node-sass": "^4.7.2",
@@ -31,7 +32,9 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "predeploy": "build",
+    "deploy": "gh-pages -d build"
   },
   "babel": {
     "presets": [
@@ -40,5 +43,6 @@
     "plugins": [
       "angularjs-annotate"
     ]
-  }
+  },
+  "homepage": "https://loenko.github.io/ng18-starter"
 }
