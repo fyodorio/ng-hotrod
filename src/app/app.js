@@ -3,6 +3,7 @@ import 'angular-aria';
 import 'angular-messages';
 import 'angular-material';
 import Components from './components/components';
+import Services from './services/services';
 import AppComponent from './app.component';
 
 const appModule = angular.module('app', [
@@ -10,7 +11,8 @@ const appModule = angular.module('app', [
     'ngAria',
     'ngMessages',
     'ngMaterial',
-    Components
+    Components,
+    Services
 ])
 
 .component('app', AppComponent)

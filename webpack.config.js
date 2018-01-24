@@ -31,12 +31,25 @@ module.exports = {
                 use: 'raw-loader'
             },
             {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'postcss-loader'
+                ]
+            },
+            {
                 test: /\.scss$/,
                 use: [
                     'style-loader',
                     'css-loader',
+                    'postcss-loader',
                     'sass-loader'
                 ]
+            },
+            {
+                test: /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
+                use: 'file-loader'
             }
         ]
     }
