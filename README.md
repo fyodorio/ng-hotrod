@@ -1,6 +1,6 @@
 # ng18-starter
 ### Simple starter for AngularJS + Angular Material + ES6 + Sass + Webpack
-#### [Demo](https://loenko.github.io/ng18-starter)
+#### [Demo](https://loenko.github.io/ng18-starter/)
 
 #### Includes
 * AngularJS (1.6.8)
