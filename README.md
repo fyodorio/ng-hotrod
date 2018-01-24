@@ -7,7 +7,7 @@
 * Material Design Icons (Expanded Community Set)
 * Sass + PostCSS (for vendor prefixes)
 * Babel (latest ECMAScript + DI annotation plugin)
-* Webpack (including webpack-dev-server)
+* Webpack (including webpack-dev-server and HMR)
 
 #### Scripts
 * `yarn install` or `npm install` - install all the dependencies 
