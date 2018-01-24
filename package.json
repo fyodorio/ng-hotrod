@@ -37,7 +37,7 @@
     "start": "webpack-dev-server --open",
     "predeploy": "webpack",
     "deploy": "gh-pages -d dist",
-    "eslint": "./node_modules/.bin/eslint src"
+    "eslint": "./node_modules/.bin/eslint src/app"
   },
   "babel": {
     "presets": [
