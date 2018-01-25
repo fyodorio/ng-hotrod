@@ -1,10 +1,11 @@
 class SidebarController {
-    constructor(UiStateService) {
-      this.name = 'Sidebar Component';
+    constructor(UiStateService, NavigationService) {
       this.UiStateService = UiStateService;
+      this.NavigationService = NavigationService;
     }
 
-    closeSidebar() {
+    navigateTo(page) {
+      this.NavigationService.setPage(page);
       this.UiStateService.toggleSidebar('left');
     }
   }

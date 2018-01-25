@@ -1,6 +1,5 @@
 class ContentController {
     constructor(NavigationService) {
-      this.name = 'Content Component';
       this.NavigationService = NavigationService;
     }
 
