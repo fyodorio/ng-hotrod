@@ -1,29 +1,27 @@
-<div class="navbar">
-    <md-toolbar>
-        <div class="md-toolbar-tools">
-            <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openSidebar()">
-                <i class="mdi mdi-menu mdi-24px"></i> 
+<md-toolbar class="navbar">
+    <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openSidebar()">
+            <i class="mdi mdi-menu mdi-24px"></i> 
+        </md-button>
+        <h2 flex md-truncate>{{$ctrl.NavigationService.currentPageTitle}}</h2>
+        
+        <md-menu>
+            <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openMenu($mdMenu, $event)">
+                <i md-menu-origin class="mdi mdi-dots-vertical mdi-24px"></i> 
             </md-button>
-            <h2 flex md-truncate>{{$ctrl.NavigationService.currentPageTitle}}</h2>
-            
-            <md-menu>
-                <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openMenu($mdMenu, $event)">
-                    <i md-menu-origin class="mdi mdi-dots-vertical mdi-24px"></i> 
-                </md-button>
-                <md-menu-content width="4">
-                    <md-menu-item>
-                        <md-button>
-                            Settings
-                        </md-button>
-                    </md-menu-item>
-                    <md-menu-item>
-                        <md-button>
-                            Clear Data
-                        </md-button>
-                    </md-menu-item>
-                </md-menu-content>
-            </md-menu>
+            <md-menu-content width="4">
+                <md-menu-item>
+                    <md-button>
+                        Settings
+                    </md-button>
+                </md-menu-item>
+                <md-menu-item>
+                    <md-button>
+                        Clear Data
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
 
-        </div>
-    </md-toolbar>    
-</div>
+    </div>
+</md-toolbar>

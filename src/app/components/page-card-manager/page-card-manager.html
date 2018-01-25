@@ -1,5 +1,5 @@
 <div class="page-card-manager">
-    <md-content flex layout-padding>
+    <md-content layout-padding>
         <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px">
             <md-grid-tile ng-repeat="card in $ctrl.DataService.cards" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1">
                 <md-card style="width: 100%; height: 100%;">
@@ -9,11 +9,36 @@
                         </md-card-title-text>
                     </md-card-title>
                     <md-card-actions layout="row" layout-align="end center">
-                        <md-button>Open</md-button>
+                        <md-button ng-click="$ctrl.openCard(card.id)">Open</md-button>
                         <md-button ng-click="$ctrl.deleteCard(card.id)">Delete</md-button>
                     </md-card-actions>
                 </md-card>
             </md-grid-tile>
         </md-grid-list>
     </md-content>
+
+    <md-button  aria-label="menu" class="md-fab md-warn" 
+                style="top: auto;
+                right: 20px;
+                bottom: 20px;
+                left: auto;
+                position: fixed;"
+                ng-click="$ctrl.createCard($event)">
+        <i md-menu-origin class="mdi mdi-plus mdi-24px"></i> 
+    </md-button>
+
+    <div style="visibility: hidden">
+        <div class="md-dialog-container" id="card-dialog">
+            <md-dialog layout-padding>
+                    <md-input-container md-no-float class="md-block">
+                        <input ng-model="$ctrl.DataService.cardTitleValue" placeholder="Card Title">
+                    </md-input-container>
+                    <md-input-container md-no-float class="md-block">
+                        <input ng-model="$ctrl.DataService.cardContentValue" placeholder="Card Content">
+                    </md-input-container>
+                    <md-button ng-click="$ctrl.submitNewCard()">OK</md-button>
+                    <md-button ng-click="$ctrl.cancelEditing()">Cancel</md-button>
+            </md-dialog>
+        </div>
+    </div>
 </div>

@@ -1,14 +1,24 @@
 class UiStateService {
-    constructor($mdSidenav, $mdMenu) {
+    constructor($mdSidenav, $mdDialog, $document) {
       this.$mdSidenav = $mdSidenav;
-      this.$mdMenu = $mdMenu;
+      this.$mdDialog = $mdDialog;
+      this.$document = $document;
     }
 
     toggleSidebar(id) {
         this.$mdSidenav(id).toggle();
     }
+
     openMenu(mdMenu, ev) {
       mdMenu.open(ev);
+    }
+
+    cardPrompt(ev, parent) {
+      this.$mdDialog.show({
+        contentElement: '#card-dialog',
+        parent: angular.element(this.$document.find('body')),
+        targetEvent: ev
+      });
     }
   }
   

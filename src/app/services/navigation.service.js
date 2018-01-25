@@ -1,5 +1,9 @@
 class NavigationService {
-    constructor() {
+    constructor(DataService) {
+      this.DataService = DataService;
+      this.currentCard = localStorage.getItem('currentCard') !== null 
+        ? angular.fromJson(localStorage.getItem('currentCard')) 
+        : 0;
       this.pages = [
         {
           id: 0,
@@ -24,6 +28,11 @@ class NavigationService {
           id: 2,
           title: 'Card Manager',
           children: []
+        },
+        {
+          id: 3,
+          title: this.DataService.cards[this.currentCard].title,
+          children: this.DataService.cards
         }
       ];
       this.currentPage = localStorage.getItem('currentPage') !== null 
@@ -39,6 +48,12 @@ class NavigationService {
       this.currentPage = pageIndex;
       localStorage.setItem('currentPage', angular.toJson(this.currentPage));
       this.currentPageTitle = this.pages[this.currentPage].title;
+    }
+
+    setCurCard(id) {
+      this.currentCard = id;
+      localStorage.setItem('currentCard', angular.toJson(this.currentCard));
+      this.pages[3].title = this.DataService.cards[id].title;
     }
 
     setAboutTab(tabIndex) {

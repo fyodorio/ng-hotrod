@@ -1,0 +1,12 @@
+<md-content class="page-card" layout-padding>
+    <md-card flex>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{$ctrl.NavigationService.currentPageTitle}}</span>
+            </md-card-title-text>
+        </md-card-title> 
+        <md-card-content>
+            <p>{{$ctrl.DataService.cards[$ctrl.NavigationService.currentCard].content}}</p>
+        </md-card-content>  
+    </md-card>
+</md-content>

@@ -1,6 +1,8 @@
 class DataService {
     constructor() {
-        this.cards = [
+        this.cards = localStorage.getItem('cards') !== null 
+        ? angular.fromJson(localStorage.getItem('cards')) 
+        : [
             {
                 id: 0,
                 title: 'Issues',
@@ -17,6 +19,8 @@ class DataService {
                 content: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
             }
         ]
+        this.cardTitleValue = null;
+        this.cardContentValue = null;
     }
 
     getCards() {
@@ -25,6 +29,11 @@ class DataService {
 
     getCard(id) {
         return this.cards.find(card => card.id === id)
+    }
+
+    addCard(data) {
+        this.cards.push(data);
+        localStorage.setItem('cards', angular.toJson(this.cards));
     }
 
     editCard(id, data) {
