@@ -2,6 +2,7 @@
 .tmp
 .git
 node_modules
+.vscode
 .settings
 *.log
 dist/
