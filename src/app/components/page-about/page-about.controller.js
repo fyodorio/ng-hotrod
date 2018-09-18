@@ -1,11 +1,13 @@
 class PageAboutController {
     constructor(NavigationService) {
-      this.name = 'Page About Component';
       this.NavigationService = NavigationService;
     }
 
     changePageTo(index) {
       this.NavigationService.setPage(index);
+    }
+    changeAboutTabTo(index) {
+      this.NavigationService.setAboutTab(index);
     }
   }
   

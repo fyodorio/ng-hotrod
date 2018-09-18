@@ -2,21 +2,26 @@ const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
     devtool: 'source-map',
+    mode: 'development',
     devServer: {
         contentBase: './dist',
-        port: 9000,
+        port: 8000,
         hot: true
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'NG18 Starter Project'
+            template: 'src/index.html'
         }),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new CopyWebpackPlugin([
+            {from: 'src/assets', to: 'assets'}
+        ])
     ],
     output: {
         filename: 'bundle.js',
