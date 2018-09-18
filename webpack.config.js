@@ -7,6 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     devtool: 'source-map',
+    mode: 'development',
     devServer: {
         contentBase: './dist',
         port: 8000,
