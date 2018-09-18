@@ -1,7 +1,8 @@
 class NavbarController {
-    constructor(UiStateService, NavigationService) {
+    constructor(UiStateService, NavigationService, DataService) {
       this.UiStateService = UiStateService;
       this.NavigationService = NavigationService;
+      this.DataService = DataService;
     }
 
     openSidebar() {
@@ -10,6 +11,11 @@ class NavbarController {
 
     openMenu(mdMenu, ev) {
       this.UiStateService.openMenu(mdMenu, ev);
+    }
+
+    clearData() {
+      this.DataService.clearData();
+      this.NavigationService.setPage(0);
     }
   }
   

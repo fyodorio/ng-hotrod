@@ -31,13 +31,13 @@ class NavigationService {
         },
         {
           id: 3,
-          title: this.DataService.cards[this.currentCard].title,
-          children: this.DataService.cards
+          title: this.DataService.cards[this.currentCard].title || '',
+          children: this.DataService.cards || []
         }
       ];
       this.currentPage = localStorage.getItem('currentPage') !== null 
         ? angular.fromJson(localStorage.getItem('currentPage')) 
-        : 0 ;
+        : 0;
       this.currentPageTitle = this.pages[this.currentPage].title;
       this.currentAboutTab = localStorage.getItem('currentAboutTab') !== null 
         ? angular.fromJson(localStorage.getItem('currentAboutTab')) 
@@ -59,6 +59,14 @@ class NavigationService {
     setAboutTab(tabIndex) {
       this.currentAboutTab = tabIndex;
       localStorage.setItem('currentAboutTab', angular.toJson(this.currentAboutTab));
+    }
+
+    clearCardPage() {
+      this.pages[3] = {
+        id: 3,
+        title: '',
+        children: []
+      };
     }
   }
   

@@ -45,6 +45,10 @@ class DataService {
         this.cards = this.cards.filter(card => card.id !== id);
     }
 
+    clearData() {
+        this.cards = [];
+        localStorage.setItem('cards', angular.toJson(this.cards));
+    }
   }
   
 export default DataService;
