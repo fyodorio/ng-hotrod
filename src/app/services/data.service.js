@@ -6,19 +6,22 @@ class DataService {
             {
                 id: 0,
                 title: 'Issues',
-                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
             },
             {
                 id: 1,
                 title: 'Achievements',
-                content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                content: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.`
             },
             {
                 id: 2,
                 title: 'Trade-offs',
-                content: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.`
             }
-        ]
+        ];
         this.cardTitleValue = null;
         this.cardContentValue = null;
     }
@@ -28,7 +31,7 @@ class DataService {
     }
 
     getCard(id) {
-        return this.cards.find(card => card.id === id)
+        return this.cards.find(card => card.id === id);
     }
 
     addCard(data) {

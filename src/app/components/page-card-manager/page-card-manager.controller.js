@@ -29,7 +29,7 @@ class PageCardManagerController {
         id: this.DataService.cards.length,
         title: this.DataService.cardTitleValue,
         content: this.DataService.cardContentValue
-      }
+      };
       this.UiStateService.$mdDialog.hide();
       this.DataService.addCard(newCard);
       this.DataService.cardTitleValue = null;

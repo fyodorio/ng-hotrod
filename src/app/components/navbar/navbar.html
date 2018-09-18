@@ -6,7 +6,7 @@
         <h2 flex md-truncate>{{$ctrl.NavigationService.currentPageTitle}}</h2>
         
         <md-menu>
-            <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openMenu($mdMenu, $event)">
+            <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.UiStateService.openMenu($mdMenu, $event)">
                 <i md-menu-origin class="mdi mdi-dots-vertical mdi-24px"></i> 
             </md-button>
             <md-menu-content width="4">

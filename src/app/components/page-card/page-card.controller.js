@@ -3,7 +3,6 @@ class PageCardController {
       this.NavigationService = NavigationService;
       this.DataService = DataService;
     }
-
-  }
+}
   
 export default PageCardController;

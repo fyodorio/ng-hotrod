@@ -1,6 +1,6 @@
 import UiStateService from './ui-state.service';
 import NavigationService from './navigation.service';
-import DataService from './data.service'
+import DataService from './data.service';
 
 const servicesModule = angular.module('services', [])
 

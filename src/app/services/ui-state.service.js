@@ -13,7 +13,7 @@ class UiStateService {
       mdMenu.open(ev);
     }
 
-    cardPrompt(ev, parent) {
+    cardPrompt(ev) {
       this.$mdDialog.show({
         contentElement: '#card-dialog',
         parent: angular.element(this.$document.find('body')),

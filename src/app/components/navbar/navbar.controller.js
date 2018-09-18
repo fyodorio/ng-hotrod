@@ -10,7 +10,7 @@ class NavbarController {
     }
 
     openMenu(mdMenu, ev) {
-      this.UiStateService.openMenu(mdMenu, ev);
+      UiStateService.openMenu(mdMenu, ev);
     }
 
     clearData() {
