@@ -1,9 +1,12 @@
 # ng-hotrod
 ### Simple starter for AngularJS + Angular Material + ES6 + Sass + Webpack
+
+<img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
+
 #### [Demo](https://loenko.github.io/ng-hotrod/)
 
 #### Includes
-* AngularJS (1.6.8)
+* AngularJS (1.7.4)
 * Angular Material
 * Material Design Icons (Expanded Community Set)
 * Sass + PostCSS (for vendor prefixes)
@@ -19,5 +22,5 @@
 * `yarn eslint` or `npm run eslint` - lint code in `app` folder by ESLint with included config
 
 #### Credits
-* This starter is inspired by [Angular Class' NG6 Starter](https://github.com/gdi2290/NG6-starter)
+* This starter is inspired by [Angular Class' NG6 Starter](https://github.com/gdi2290/NG6-starter) and [angular-starter-es6-webpack](https://github.com/TheLarkInn/angular-starter-es6-webpack)
 * ESLint [config](https://github.com/vorant/eslint-codestyle) is developed by [Anton Voroshilov](https://github.com/vorant)
