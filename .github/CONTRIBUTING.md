@@ -6,6 +6,10 @@
 
 The following is a set of guidelines (not rules) for contributing to ng-hotrod. Feel free to propose changes to this document in a pull request.
 
+#### Code of Conduct
+
+This project and everyone participating in it is governed by [our Code of Conduct](https://github.com/loenko/ng-hotrod/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
 #### Your first contribution
 
 There are many ways to contribute: 
