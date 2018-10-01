@@ -1,4 +1,7 @@
 # ng-hotrod
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ### Simple starter for AngularJS + Angular Material + ES6 + Sass + Webpack
 
 <img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
@@ -20,6 +23,9 @@
 * `yarn build` or `npm run build` - build bundled version in `dist` folder
 * `yarn deploy` or `npm run deploy` - deploy bundled version from `dist` folder to repository's github page specified in package.json
 * `yarn eslint` or `npm run eslint` - lint code in `app` folder by ESLint with included config
+
+#### Contributing
+Thank you for your interest in contributing to ng-hotrod! There are many ways to contribute to this project. Get started [here](https://github.com/loenko/ng-hotrod/blob/master/.github/CONTRIBUTING.md).
 
 #### Credits
 * This starter is inspired by [Angular Class' NG6 Starter](https://github.com/gdi2290/NG6-starter) and [angular-starter-es6-webpack](https://github.com/TheLarkInn/angular-starter-es6-webpack)
