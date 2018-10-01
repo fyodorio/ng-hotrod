@@ -1,4 +1,7 @@
 # ng-hotrod
+
+[![Join the chat at https://gitter.im/ng-hotrod/Lobby](https://badges.gitter.im/ng-hotrod/Lobby.svg)](https://gitter.im/ng-hotrod/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Simple starter for AngularJS + Angular Material + ES6 + Sass + Webpack
 
 <img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
