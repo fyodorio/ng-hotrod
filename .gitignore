@@ -1,5 +1,6 @@
 .DS_Store
 .tmp
+.cache
 .git
 node_modules
 .vscode
@@ -7,3 +8,5 @@ node_modules
 .settings
 *.log
 dist/
+yarn.lock
+package-lock.json
