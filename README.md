@@ -6,7 +6,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/loenko/ng-hotrod/blob/master/.github/CONTRIBUTING.md)
 [![GitHub license](https://img.shields.io/github/license/loenko/ng-hotrod.svg)](https://github.com/loenko/ng-hotrod/blob/master/LICENSE)
 
-### Modern starter for AngularJS + Angular Material + ES6 + Sass + Webpack
+### Modern starter for AngularJS + Angular Material + ES6 + Sass + Parcel
 
 <img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
 
@@ -18,12 +18,12 @@
 * Material Design Icons (Expanded Community Set)
 * Sass + PostCSS (for vendor prefixes)
 * Babel (latest ECMAScript + DI annotation plugin)
-* Webpack (including webpack-dev-server and HMR)
+* Parcel (as modern zero-config Webpack alternative)
 * ESLint
 
 #### Scripts
 * `yarn install` or `npm install` - install all the dependencies 
-* `yarn start` or `npm start` - serve with live reload at `localhost:9000`
+* `yarn start` or `npm start` - serve with hot reload at `localhost:1234`
 * `yarn build` or `npm run build` - build bundled version in `dist` folder
 * `yarn deploy` or `npm run deploy` - deploy bundled version from `dist` folder to repository's github page specified in package.json
 * `yarn eslint` or `npm run eslint` - lint code in `app` folder by ESLint with included config
