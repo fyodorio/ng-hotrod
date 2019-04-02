@@ -1,11 +1,11 @@
 class PageHomeController {
-    constructor(NavigationService) {
-      this.NavigationService = NavigationService;
-    }
+	constructor(NavigationService) {
+		this.NavigationService = NavigationService;
+	}
 
-    changePageTo(index) {
-      this.NavigationService.setPage(index);
-    }
-  }
-  
+	changePageTo(index) {
+		this.NavigationService.setPage(index);
+	}
+}
+
 export default PageHomeController;

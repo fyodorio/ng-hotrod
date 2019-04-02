@@ -7,14 +7,13 @@ import PageCardManager from './page-card-manager/page-card-manager';
 import PageCard from './page-card/page-card';
 
 const componentsModule = angular.module('components', [
-  Navbar,
-  Sidebar,
-  Content,
-  PageHome,
-  PageAbout,
-  PageCardManager,
-  PageCard
-])
-.name;
+	Navbar,
+	Sidebar,
+	Content,
+	PageHome,
+	PageAbout,
+	PageCardManager,
+	PageCard
+]).name;
 
 export default componentsModule;

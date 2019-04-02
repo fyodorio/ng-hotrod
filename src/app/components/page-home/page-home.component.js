@@ -3,9 +3,9 @@ import controller from './page-home.controller';
 import './page-home.scss';
 
 const pageHomeComponent = {
-    bindings: {},
-    template,
-    controller
-  };
+	bindings: {},
+	template,
+	controller
+};
 
 export default pageHomeComponent;

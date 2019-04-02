@@ -3,9 +3,9 @@ import controller from './navbar.controller';
 import './navbar.scss';
 
 const navbarComponent = {
-    bindings: {},
-    template,
-    controller
-  };
+	bindings: {},
+	template,
+	controller
+};
 
 export default navbarComponent;

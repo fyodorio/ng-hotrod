@@ -6,15 +6,16 @@ import Components from './components/components';
 import Services from './services/services';
 import AppComponent from './app.component';
 
-const appModule = angular.module('app', [
-    'ngAnimate',
-    'ngAria',
-    'ngMessages',
-    'ngMaterial',
-    Components,
-    Services
-])
+const appModule = angular
+	.module('app', [
+		'ngAnimate',
+		'ngAria',
+		'ngMessages',
+		'ngMaterial',
+		Components,
+		Services
+	])
 
-.component('app', AppComponent);
+	.component('app', AppComponent);
 
 export default appModule;

@@ -1,8 +1,8 @@
 import template from './app.html';
 
 const appComponent = {
-    bindings: {},
-    template
-  };
+	bindings: {},
+	template
+};
 
 export default appComponent;
