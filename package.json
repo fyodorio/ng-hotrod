@@ -1,51 +1,66 @@
 {
-  "name": "ng-hotrod",
-  "version": "0.2.0",
-  "description": "Simple starter for AngularJS + Angular Material + ES6 + Sass + Webpack",
-  "main": "index.js",
-  "author": "Fyodor Loenko",
-  "license": "MIT",
-  "scripts": {
-    "build": "parcel build src/index.html --no-cache",
-    "serve": "parcel src/index.html --no-cache",
-    "start": "npm run serve",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "eslint": "./node_modules/.bin/eslint src/app",
-    "component": "gulp component"
-  },
-  "dependencies": {
-    "@uirouter/angularjs": "^1.0.20",
-    "angular": "^1.7.4",
-    "angular-animate": "^1.7.4",
-    "angular-aria": "^1.7.4",
-    "angular-material": "^1.1.10",
-    "angular-messages": "^1.7.4"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "@mdi/font": "^2.7.94",
-    "angular-mocks": "^1.7.4",
-    "babel-plugin-angularjs-annotate": "^0.9.0",
-    "eslint": "^5.6.0",
-    "eslint-plugin-angular": "^3.3.0",
-    "gh-pages": "^2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-template": "^5.0.0",
-    "node-sass": "^4.9.3",
-    "normalize.css": "^8.0.0",
-    "parcel-bundler": "^1.12.3",
-    "yargs": "^12.0.2"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "angularjs-annotate"
-    ]
-  },
-  "homepage": "https://loenko.github.io/ng-hotrod"
+	"name": "ng-hotrod",
+	"version": "0.2.0",
+	"description": "Simple starter for AngularJS + Angular Material + ES6 + Sass + Webpack",
+	"main": "index.js",
+	"author": "Fyodor Loenko",
+	"license": "MIT",
+	"scripts": {
+		"build": "parcel build src/index.html --no-cache",
+		"serve": "parcel src/index.html --no-cache",
+		"start": "npm run serve",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
+		"eslint": "./node_modules/.bin/eslint src/app",
+		"format": "prettier --write",
+		"component": "gulp component"
+	},
+	"dependencies": {
+		"@uirouter/angularjs": "^1.0.20",
+		"angular": "^1.7.4",
+		"angular-animate": "^1.7.4",
+		"angular-aria": "^1.7.4",
+		"angular-material": "^1.1.10",
+		"angular-messages": "^1.7.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.1.0",
+		"@mdi/font": "^2.7.94",
+		"angular-mocks": "^1.7.4",
+		"babel-plugin-angularjs-annotate": "^0.9.0",
+		"eslint": "^5.6.0",
+		"eslint-plugin-angular": "^3.3.0",
+		"gh-pages": "^2.0.0",
+		"gulp": "^3.9.1",
+		"gulp-rename": "^1.4.0",
+		"gulp-template": "^5.0.0",
+		"husky": "^1.3.1",
+		"lint-staged": "^8.1.5",
+		"node-sass": "^4.9.3",
+		"normalize.css": "^8.0.0",
+		"parcel-bundler": "^1.12.3",
+		"prettier": "1.16.4",
+		"yargs": "^12.0.2"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{ts,js,json,scss,css}": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		],
+		"plugins": [
+			"angularjs-annotate"
+		]
+	},
+	"homepage": "https://loenko.github.io/ng-hotrod"
 }
