@@ -3,9 +3,9 @@ import controller from './page-card-manager.controller';
 import './page-card-manager.scss';
 
 const pageCardManagerComponent = {
-    bindings: {},
-    template,
-    controller
-  };
+	bindings: {},
+	template,
+	controller
+};
 
 export default pageCardManagerComponent;

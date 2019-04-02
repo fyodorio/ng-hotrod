@@ -12,7 +12,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist",
 		"eslint": "./node_modules/.bin/eslint src/app",
-		"format": "prettier --write",
+		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write",
 		"component": "gulp component"
 	},
 	"dependencies": {

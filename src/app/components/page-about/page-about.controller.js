@@ -1,14 +1,14 @@
 class PageAboutController {
-    constructor(NavigationService) {
-      this.NavigationService = NavigationService;
-    }
+	constructor(NavigationService) {
+		this.NavigationService = NavigationService;
+	}
 
-    changePageTo(index) {
-      this.NavigationService.setPage(index);
-    }
-    changeAboutTabTo(index) {
-      this.NavigationService.setAboutTab(index);
-    }
-  }
-  
+	changePageTo(index) {
+		this.NavigationService.setPage(index);
+	}
+	changeAboutTabTo(index) {
+		this.NavigationService.setAboutTab(index);
+	}
+}
+
 export default PageAboutController;
