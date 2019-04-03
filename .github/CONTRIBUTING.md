@@ -4,7 +4,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines (not rules) for contributing to ng-hotrod. Feel free to propose changes to this document in a pull request.
+The following is a set of guidelines (not rules) for contributing to ng-hotrod. This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Feel free to propose changes to this document in a pull request.
 
 #### Code of Conduct
 
