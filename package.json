@@ -13,7 +13,8 @@
 		"deploy": "gh-pages -d dist",
 		"eslint": "./node_modules/.bin/eslint src/app",
 		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write",
-		"component": "gulp component"
+		"component": "gulp component",
+		"generate": "hygen"
 	},
 	"dependencies": {
 		"@uirouter/angularjs": "^1.0.20",
@@ -36,6 +37,7 @@
 		"gulp-rename": "^1.4.0",
 		"gulp-template": "^5.0.0",
 		"husky": "^1.3.1",
+		"hygen": "^4.0.2",
 		"lint-staged": "^8.1.5",
 		"node-sass": "^4.9.3",
 		"normalize.css": "^8.0.0",
