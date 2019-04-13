@@ -20,7 +20,7 @@ There are many ways to contribute:
 * writing new code
 * writing unit tests for existing code
 
-Unsure where to begin contributing to ng-hotrod? You can start by looking through the `good first issue` (issues which should only require a few lines of code, and a test or two) and `help wanted` (issues which should be a bit more involved than beginner issues) labels.
+Unsure where to begin contributing to ng-hotrod? You can start by diving into the [road map](https://github.com/loenko/ng-hotrod/projects/1) and [issue tracker](https://github.com/loenko/ng-hotrod/issues). And also look through the `good first issue` (issues which should only require a few lines of code, and a test or two) and `help wanted` (issues which should be a bit more involved than beginner issues) labels specifically.
 
 Working on your first Pull Request? You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
