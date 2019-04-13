@@ -6,6 +6,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/loenko/ng-hotrod/blob/master/.github/CONTRIBUTING.md)
 [![coc-badge](https://img.shields.io/badge/codeof-conduct-ff69b4.svg?style=flat-square)](https://github.com/loenko/ng-hotrod/blob/master/.github/CODE_OF_CONDUCT.md)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Dependencies Overview by David](https://david-dm.org/loenko/ng-hotrod.svg)](https://david-dm.org)
 [![GitHub license](https://img.shields.io/github/license/loenko/ng-hotrod.svg)](https://github.com/loenko/ng-hotrod/blob/master/LICENSE)
 
 ### Modern starter for AngularJS + Angular Material + ES6 + Sass + Parcel + Prettier + hygen
