@@ -13,7 +13,7 @@
 
 <img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
 
-#### [Demo](https://loenko.github.io/ng-hotrod/)
+#### [Demo](https://fyodorio.github.io/ng-hotrod/)
 
 #### Includes
 * [AngularJS (1.7.4)](https://angularjs.org/)
