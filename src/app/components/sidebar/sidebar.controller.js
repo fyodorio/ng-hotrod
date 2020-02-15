@@ -1,4 +1,5 @@
 class SidebarController {
+	/* @ngInject */
 	constructor(UiStateService, NavigationService) {
 		this.UiStateService = UiStateService;
 		this.NavigationService = NavigationService;

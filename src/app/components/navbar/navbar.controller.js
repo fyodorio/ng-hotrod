@@ -1,4 +1,5 @@
 class NavbarController {
+	/* @ngInject */
 	constructor(UiStateService, NavigationService, DataService) {
 		this.UiStateService = UiStateService;
 		this.NavigationService = NavigationService;
@@ -10,7 +11,7 @@ class NavbarController {
 	}
 
 	openMenu(mdMenu, ev) {
-		UiStateService.openMenu(mdMenu, ev);
+		this.UiStateService.openMenu(mdMenu, ev);
 	}
 
 	clearData() {

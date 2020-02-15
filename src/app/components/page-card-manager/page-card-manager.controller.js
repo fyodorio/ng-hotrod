@@ -1,4 +1,5 @@
 class PageCardManagerController {
+	/* @ngInject */
 	constructor(NavigationService, DataService, UiStateService) {
 		this.NavigationService = NavigationService;
 		this.DataService = DataService;

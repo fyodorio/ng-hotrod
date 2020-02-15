@@ -9,6 +9,7 @@
 		"build": "parcel build src/index.html --no-cache",
 		"serve": "parcel src/index.html --no-cache",
 		"start": "npm run serve",
+		"prebuild": "rm -rf dist",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist",
 		"eslint": "./node_modules/.bin/eslint src/app",
@@ -50,14 +51,6 @@
 		"*.{ts,js,json,scss,css}": [
 			"prettier --write",
 			"git add"
-		]
-	},
-	"babel": {
-		"presets": [
-			"@babel/preset-env"
-		],
-		"plugins": [
-			"angularjs-annotate"
 		]
 	},
 	"homepage": "https://loenko.github.io/ng-hotrod"
