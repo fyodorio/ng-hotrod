@@ -6,8 +6,11 @@
     "angular": true,
     "go": true
   },
-  "plugins": ["angular"], // https://github.com/Gillespie59/eslint-plugin-angular
+  "plugins": ["prettier", "angular"], // https://github.com/Gillespie59/eslint-plugin-angular
+  "extends": ["prettier"],
   "rules": {
+    "prettier/prettier": ["error"],
+
     // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/timeout-service.md
     "angular/timeout-service": "error",
 
