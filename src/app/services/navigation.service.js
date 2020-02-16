@@ -1,4 +1,5 @@
 class NavigationService {
+	/* @ngInject */
 	constructor(DataService) {
 		this.DataService = DataService;
 		this.currentCard =

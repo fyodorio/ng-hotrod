@@ -7,7 +7,7 @@ import Services from './services/services';
 import AppComponent from './app.component';
 
 const appModule = angular
-	.module('app', [
+	.module('appModule', [
 		'ngAnimate',
 		'ngAria',
 		'ngMessages',

@@ -1,4 +1,5 @@
 class DataService {
+	/* @ngInject */
 	constructor() {
 		this.cards =
 			localStorage.getItem('cards') !== null

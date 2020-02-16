@@ -5,7 +5,7 @@ const component = () => {
 	const element = document.createElement('div');
 
 	element.innerHTML = `
-    <div ng-app="app">
+    <div ng-app="appModule">
         <app></app>
     </div>
   `;

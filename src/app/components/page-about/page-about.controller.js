@@ -1,4 +1,5 @@
 class PageAboutController {
+	/* @ngInject */
 	constructor(NavigationService) {
 		this.NavigationService = NavigationService;
 	}

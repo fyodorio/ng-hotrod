@@ -1,4 +1,5 @@
 class UiStateService {
+	/* @ngInject */
 	constructor($mdSidenav, $mdDialog, $document) {
 		this.$mdSidenav = $mdSidenav;
 		this.$mdDialog = $mdDialog;

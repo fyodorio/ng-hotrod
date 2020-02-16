@@ -1,4 +1,5 @@
 class ContentController {
+	/* @ngInject */
 	constructor(NavigationService) {
 		this.NavigationService = NavigationService;
 	}
