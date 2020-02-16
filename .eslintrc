@@ -167,9 +167,6 @@
     // 24.2 https://eslint.org/docs/rules/no-multiple-empty-lines.html
     "no-multiple-empty-lines": "error",
 
-    // 24.3 https://eslint.org/docs/rules/operator-linebreak.html
-    "operator-linebreak": ["error", "before"],
-
     // 24.4 https://eslint.org/docs/rules/key-spacing.html
     "key-spacing": ["error", { "beforeColon": false }],
 

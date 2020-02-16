@@ -12,10 +12,8 @@
 		"prebuild": "rm -rf dist",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist",
-		"eslint": "./node_modules/.bin/eslint src/app",
-		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write",
-		"component": "gulp component",
-		"generate": "hygen"
+		"lint": "./node_modules/.bin/eslint src/app",
+		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write"
 	},
 	"dependencies": {
 		"@uirouter/angularjs": "^1.0.25",
