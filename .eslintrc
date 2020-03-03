@@ -84,7 +84,7 @@
 
     // 8.2 https://github.com/airbnb/javascript#arrows--implicit-return
     "arrow-body-style": ["error", "as-needed"],
-    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
 
     // 8.5 https://github.com/airbnb/javascript#arrows--confusing
     "no-confusing-arrow": ["error", {"allowParens": true}],

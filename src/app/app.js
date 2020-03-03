@@ -15,6 +15,12 @@ const appModule = angular
 		Components,
 		Services
 	])
+	.config($mdThemingProvider => {
+		$mdThemingProvider
+			.theme('default')
+			.primaryPalette('brown')
+			.accentPalette('amber');
+	})
 
 	.component('app', AppComponent);
 
