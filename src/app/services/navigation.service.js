@@ -9,7 +9,7 @@ class NavigationService {
 		this.pages = [
 			{
 				id: 0,
-				title: 'Home',
+				title: 'ng-hotrod',
 				children: []
 			},
 			{
