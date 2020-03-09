@@ -26,7 +26,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
 		"@babel/preset-env": "^7.8.4",
-		"@mdi/font": "^4.9.95",
+		"@mdi/font": "^5.0.45",
 		"angular-mocks": "^1.7.4",
 		"babel-plugin-angularjs-annotate": "^0.10.0",
 		"eslint": "^6.8.0",
