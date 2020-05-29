@@ -33,7 +33,7 @@
 		"eslint-config-prettier": "^6.10.0",
 		"eslint-plugin-angular": "^4.0.1",
 		"eslint-plugin-prettier": "^3.1.2",
-		"gh-pages": "^2.2.0",
+		"gh-pages": "^3.0.0",
 		"husky": "^4.2.3",
 		"hygen": "^5.0.3",
 		"lint-staged": "^10.0.7",
