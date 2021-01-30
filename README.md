@@ -9,7 +9,7 @@
 
 ### Modern starter for AngularJS + Angular Material + ES2020 + Sass
 
-<img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
+<img src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg" alt="ng-hotrod" width="480px;" >
 
 #### [Demo](https://fyodorio.github.io/ng-hotrod/)
 
