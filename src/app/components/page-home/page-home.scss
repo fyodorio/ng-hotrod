@@ -1,7 +1,16 @@
 .page-home {
 	background-color: white;
-	height: 100%;
 	* {
 		margin: 0;
+	}
+	li {
+		margin-left: 1em;
+	}
+	h2.md-display-1 {
+		text-align: center;
+	}
+	.hero-img {
+		width: 95vw;
+		max-width: 700px;
 	}
 }
