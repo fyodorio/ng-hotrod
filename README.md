@@ -13,7 +13,7 @@
 #### [Demo](https://fyodorio.github.io/ng-hotrod/)
 
 #### Includes
-* [AngularJS](https://angularjs.org/) (1.7.9)
+* [AngularJS](https://angularjs.org/) (1.8.2)
 * [Angular Material](https://material.angularjs.org/latest/)
 * [Sass](https://sass-lang.com/)
 * [Babel](https://babeljs.io/) (latest ECMAScript + DI annotation plugin)
