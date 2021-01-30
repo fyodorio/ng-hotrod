@@ -1,27 +1,12 @@
 <md-toolbar class="navbar">
     <div class="md-toolbar-tools">
-        <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openSidebar()">
-            <i class="mdi mdi-menu mdi-24px"></i> 
-        </md-button>
-        <h2 flex md-truncate>{{$ctrl.NavigationService.currentPageTitle}}</h2>
-        
-        <md-menu>
-            <md-button class="md-icon-button" aria-label="Settings" ng-click="$ctrl.openMenu($mdMenu, $event)">
-                <i md-menu-origin class="mdi mdi-dots-vertical mdi-24px"></i> 
-            </md-button>
-            <md-menu-content width="4">
-                <md-menu-item>
-                    <md-button>
-                        Settings
-                    </md-button>
-                </md-menu-item>
-                <md-menu-item>
-                    <md-button ng-click="$ctrl.clearData()">
-                        Clear Data
-                    </md-button>
-                </md-menu-item>
-            </md-menu-content>
-        </md-menu>
-
+        <div flex layout="row" layout-align="start center">
+            <img class="ng-hotrod-logo" src="../../../assets/img/icon-ng-hotrod-light.svg" alt="GitHub">
+            <h2 class="active-page-name" md-truncate>{{$ctrl.NavigationService.currentPageTitle}}</h2>
+        </div>
+        <a class="github-link" href="https://github.com/fyodorio/ng-hotrod" layout="row" layout-align="center center">
+            <img src="../../../assets/img/icon-github.png" alt="GitHub">
+            <div>GitHub</div>
+        </a>
     </div>
 </md-toolbar>

@@ -1,7 +1,7 @@
 {
 	"name": "ng-hotrod",
-	"version": "0.3.0",
-	"description": "Simple starter for AngularJS + Angular Material + ES2020 + Sass + Parcel",
+	"version": "0.4.0",
+	"description": "Simple starter for AngularJS + Angular Material",
 	"main": "index.js",
 	"author": "Fyodor Loenko",
 	"license": "MIT",
@@ -16,28 +16,27 @@
 		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write"
 	},
 	"dependencies": {
-		"@uirouter/angularjs": "^1.0.25",
-		"angular": "^1.7.9",
-		"angular-animate": "^1.7.9",
-		"angular-aria": "^1.7.9",
-		"angular-material": "^1.1.21",
-		"angular-messages": "^1.7.9"
+		"@uirouter/angularjs": "^1.0.29",
+		"angular": "^1.8.2",
+		"angular-animate": "^1.8.2",
+		"angular-aria": "^1.8.2",
+		"angular-material": "^1.2.2",
+		"angular-messages": "^1.8.2"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.8.4",
-		"@babel/preset-env": "^7.8.4",
-		"@mdi/font": "^4.9.95",
-		"angular-mocks": "^1.7.4",
+		"@babel/core": "^7.12.10",
+		"@babel/preset-env": "^7.12.11",
+		"angular-mocks": "^1.8.2",
 		"babel-plugin-angularjs-annotate": "^0.10.0",
 		"eslint": "^6.8.0",
-		"eslint-config-prettier": "^6.10.0",
+		"eslint-config-prettier": "^6.15.0",
 		"eslint-plugin-angular": "^4.0.1",
-		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-prettier": "^3.3.1",
 		"gh-pages": "^2.2.0",
-		"husky": "^4.2.3",
+		"husky": "^4.3.8",
 		"hygen": "^5.0.3",
-		"lint-staged": "^10.0.7",
-		"node-sass": "^4.13.1",
+		"lint-staged": "^10.5.3",
+		"node-sass": "^4.14.1",
 		"normalize.css": "^8.0.1",
 		"parcel-bundler": "^1.12.4",
 		"prettier": "^2.0.0"
@@ -53,5 +52,5 @@
 			"git add"
 		]
 	},
-	"homepage": "https://loenko.github.io/ng-hotrod"
+	"homepage": "https://fyodorio.github.io/ng-hotrod"
 }

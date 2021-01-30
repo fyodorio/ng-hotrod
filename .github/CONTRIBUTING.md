@@ -22,10 +22,10 @@ There are many ways to contribute:
 
 Unsure where to begin contributing to ng-hotrod? You can start by diving into the [road map](https://github.com/loenko/ng-hotrod/projects/1) and [issue tracker](https://github.com/loenko/ng-hotrod/issues). And also look through the `good first issue` (issues which should only require a few lines of code, and a test or two) and `help wanted` (issues which should be a bit more involved than beginner issues) labels specifically.
 
-Working on your first Pull Request? You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+Working on your first Pull Request? You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
 #### Getting Started
-Please, don't use the issue tracker for support questions and other non-functional communication! There's a [Gitter room](https://gitter.im/ng-hotrod/Lobby) where you can discuss any question/suggestion related to ng-hotrod.
+Please, don't use the issue tracker for support questions and other non-functional communication! There's a [dedicated discussions page](https://github.com/fyodorio/ng-hotrod/discussions) where you can raise any question/suggestion related to ng-hotrod.
 
 Please, use [issue template](https://github.com/loenko/ng-hotrod/blob/master/.github/ISSUE_TEMPLATE.md) to create a detailed report on a problem (or description for a feature/enhancement suggestion), and make sure you've read the [pull request template](https://github.com/loenko/ng-hotrod/blob/master/.github/PULL_REQUEST_TEMPLATE.md) prior to submitting a new one.
 

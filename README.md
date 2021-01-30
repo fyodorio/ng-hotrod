@@ -2,27 +2,26 @@
 
 [![Semver](https://img.shields.io/github/package-json/v/fyodorio/ng-hotrod)](https://github.com/fyodorio/ng-hotrod/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![coc-badge](https://img.shields.io/badge/codeof-conduct-ff69b4.svg?style=flat-square)](https://github.com/loenko/ng-hotrod/blob/master/.github/CODE_OF_CONDUCT.md)
+[![coc-badge](https://img.shields.io/badge/codeof-conduct-ff69b4.svg?style=flat-square)](https://github.com/fyodorio/ng-hotrod/blob/master/.github/CODE_OF_CONDUCT.md)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Greenkeeper badge](https://badges.greenkeeper.io/fyodorio/ng-hotrod.svg)](https://greenkeeper.io/)
-[![GitHub license](https://img.shields.io/github/license/loenko/ng-hotrod.svg)](https://github.com/loenko/ng-hotrod/blob/master/LICENSE) 
+[![GitHub license](https://img.shields.io/github/license/loenko/ng-hotrod.svg)](https://github.com/fyodorio/ng-hotrod/blob/master/LICENSE) 
 
-### Modern starter for AngularJS + Angular Material + ES2020 + Sass + Parcel + Prettier + hygen
+### Modern starter for AngularJS + Angular Material + ES2020 + Sass
 
-<img src="https://raw.githubusercontent.com/loenko/file-storage/master/hotrod-logo.jpg" alt="ng-hotrod" width="480px;" >
+<img src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg" alt="ng-hotrod" width="480px;" >
 
 #### [Demo](https://fyodorio.github.io/ng-hotrod/)
 
 #### Includes
-* [AngularJS (1.7.9)](https://angularjs.org/)
+* [AngularJS](https://angularjs.org/) (1.8.2)
 * [Angular Material](https://material.angularjs.org/latest/)
-* [Material Design Icons](https://materialdesignicons.com/)
 * [Sass](https://sass-lang.com/)
 * [Babel](https://babeljs.io/) (latest ECMAScript + DI annotation plugin)
 * [Parcel](https://parceljs.org/) (as modern zero-config Webpack alternative)
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/) for code formatting
 * [hygen](https://www.hygen.io/) for code scaffolding
+* [husky](https://github.com/typicode/husky) for pre-commit hooks
 
 #### Scripts
 * `npm install` - install all the dependencies 
