@@ -13,11 +13,10 @@
 #### [Demo](https://fyodorio.github.io/ng-hotrod/)
 
 #### Includes
-* [AngularJS](https://angularjs.org/) (1.8.2)
+* [AngularJS](https://angularjs.org/) (1.8.2) with component-based architecture
 * [Angular Material](https://material.angularjs.org/latest/)
 * [Sass](https://sass-lang.com/)
-* [Babel](https://babeljs.io/) (latest ECMAScript + DI annotation plugin)
-* [Parcel](https://parceljs.org/) (as modern zero-config Webpack alternative)
+* [Vite](https://vitejs.dev/) (as modern zero-config Webpack alternative)
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/) for code formatting
 * [hygen](https://www.hygen.io/) for code scaffolding

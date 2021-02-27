@@ -1,22 +1,22 @@
 {
 	"name": "ng-hotrod",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"description": "Simple starter for AngularJS + Angular Material",
 	"main": "index.js",
 	"author": "Fyodor Loenko",
 	"license": "MIT",
 	"scripts": {
-		"build": "parcel build src/index.html --no-cache",
-		"serve": "parcel src/index.html --no-cache",
-		"start": "npm run serve",
+		"dev": "vite serve",
+		"build": "vite build",
+		"serve": "vite preview",
+		"start": "npm run dev",
 		"prebuild": "rm -rf dist",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist",
-		"lint": "./node_modules/.bin/eslint src/app",
+		"lint": "./node_modules/.bin/eslint app",
 		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write"
 	},
 	"dependencies": {
-		"@uirouter/angularjs": "^1.0.29",
 		"angular": "^1.8.2",
 		"angular-animate": "^1.8.2",
 		"angular-aria": "^1.8.2",
@@ -24,10 +24,6 @@
 		"angular-messages": "^1.8.2"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.12.10",
-		"@babel/preset-env": "^7.12.11",
-		"angular-mocks": "^1.8.2",
-		"babel-plugin-angularjs-annotate": "^0.10.0",
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.15.0",
 		"eslint-plugin-angular": "^4.0.1",
@@ -36,10 +32,9 @@
 		"husky": "^4.3.8",
 		"hygen": "^5.0.3",
 		"lint-staged": "^10.5.3",
-		"node-sass": "^4.14.1",
-		"normalize.css": "^8.0.1",
-		"parcel-bundler": "^1.12.4",
-		"prettier": "^2.0.0"
+		"prettier": "^2.0.0",
+		"sass": "^1.32.8",
+		"vite": "^2.0.1"
 	},
 	"husky": {
 		"hooks": {

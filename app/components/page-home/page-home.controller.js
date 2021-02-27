@@ -1,12 +1,9 @@
 class PageHomeController {
-	/* @ngInject */
 	constructor(NavigationService) {
 		this.NavigationService = NavigationService;
 	}
-
-	changePageTo(index) {
-		this.NavigationService.setPage(index);
-	}
 }
+
+PageHomeController.$inject = ['NavigationService'];
 
 export default PageHomeController;

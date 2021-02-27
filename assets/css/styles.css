@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=cyrillic');
+@import '../../node_modules/angular-material/angular-material.css';
+
+app {
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-rows: 64px auto 64px;
+}
