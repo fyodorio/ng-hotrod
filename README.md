@@ -10,7 +10,7 @@
 
 <img src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg" alt="ng-hotrod" width="480px;" >
 
-#### [Demo](https://fyodorio.github.io/ng-hotrod/)
+#### [Demo](https://ng-hotrod.netlify.app)
 
 #### Includes
 * [AngularJS](https://angularjs.org/) (1.8.2) with component-based architecture
