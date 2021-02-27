@@ -26,7 +26,6 @@
 * `npm install` - install all the dependencies 
 * `npm start` - serve with hot reload at `localhost:1234`
 * `npm run build` - build bundled version in `dist` folder
-* `npm run deploy` - deploy bundled version from `dist` folder to repository's github page specified in package.json
 * `npm run lint` - lint code in `app` folder by ESLint with included config
 * `npm run format` - format code with Prettier
 * `npx hygen component new --name new-component --path relative/path/inside/of/src/app/folder` - generate folder with default component code files
