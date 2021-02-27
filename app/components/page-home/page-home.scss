@@ -1,0 +1,24 @@
+page-home {
+	overflow-y: scroll;
+	background-color: white;
+	text-align: center;
+	.page-home {
+		height: calc(100% - 64px);
+		background-color: white;
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+	* {
+		margin: 0;
+	}
+	li {
+		margin-left: 1em;
+	}
+	h3.md-title {
+		padding-bottom: 16px;
+	}
+	.hero-img {
+		width: 95vw;
+		max-width: 700px;
+	}
+}

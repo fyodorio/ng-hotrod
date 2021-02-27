@@ -1,7 +1,7 @@
 import NavigationService from './navigation.service';
 
-const servicesModule = angular
+const ServicesModule = angular
 	.module('services', [])
 	.service('NavigationService', NavigationService).name;
 
-export default servicesModule;
+export default ServicesModule;

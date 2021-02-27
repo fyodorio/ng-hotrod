@@ -1,5 +1,4 @@
 class NavigationService {
-	/* @ngInject */
 	constructor() {
 		this.currentPageTitle = 'ng-hotrod';
 	}

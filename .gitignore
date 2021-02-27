@@ -9,4 +9,3 @@ node_modules
 *.log
 dist/
 yarn.lock
-package-lock.json
