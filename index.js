@@ -7,7 +7,6 @@ const component = () => {
 	// eslint-disable-next-line angular/document-service
 	const element = document.createElement('div');
 
-	element.setAttribute('ng-app', 'appModule');
 	element.className = 'app';
 
 	element.innerHTML = `
