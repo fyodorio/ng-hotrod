@@ -3,7 +3,7 @@ to: src/app/<%=path%>/<%=name%>/<%=name%>.component.js
 ---
 'use strict';
 
-import template from './<%=name%>.html';
+import template from './<%=name%>.html?raw';
 import controller from './<%=name%>.controller';
 import './<%=name%>.scss';
 
