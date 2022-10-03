@@ -1,5 +1,5 @@
 ---
-to: src/app/<%=path%>/<%=name%>/<%=name%>.component.js
+to: app/<%=path%>/<%=name%>/<%=name%>.component.js
 ---
 'use strict';
 
@@ -8,9 +8,9 @@ import controller from './<%=name%>.controller';
 import './<%=name%>.scss';
 
 const <%=h.changeCase.camel(name)%>Component = {
-    bindings: {},
-    template,
-    controller
+	bindings: {},
+	template,
+	controller,
 };
 
 export default <%=h.changeCase.camel(name)%>Component;

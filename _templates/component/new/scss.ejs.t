@@ -1,4 +1,4 @@
 ---
-to: src/app/<%=path%>/<%=name%>/<%=name%>.scss
+to: app/<%=path%>/<%=name%>/<%=name%>.scss
 ---
 .<%=name%> {}

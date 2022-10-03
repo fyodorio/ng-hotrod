@@ -1,3 +1,3 @@
 ---
-to: src/app/<%=path%>/<%=name%>/<%=name%>.spec.js
+to: app/<%=path%>/<%=name%>/<%=name%>.spec.js
 ---
