@@ -6,11 +6,15 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/github/license/loenko/ng-hotrod.svg)](https://github.com/fyodorio/ng-hotrod/blob/master/LICENSE)
 
-### Modern starter for AngularJS + Angular Material
+### Modern starter for AngularJS + Angular Material + Vite
 
 <img src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg" alt="ng-hotrod" width="480px;" >
 
 #### [Demo](https://ng-hotrod.netlify.app)
+
+#### Motivation
+
+Nostalgia 👴
 
 #### Includes
 
