@@ -1,7 +1,7 @@
 {
 	"name": "ng-hotrod",
-	"version": "0.5.0",
-	"description": "Simple starter for AngularJS + Angular Material",
+	"version": "0.6.0",
+	"description": "Simple starter for AngularJS + Angular Material + Vite",
 	"main": "index.js",
 	"author": "Fyodor Loenko",
 	"license": "MIT",
@@ -12,26 +12,26 @@
 		"start": "npm run dev",
 		"prebuild": "rm -rf dist",
 		"lint": "./node_modules/.bin/eslint app",
-		"format": "prettier \"src/**/*.{ts,js,json,scss,css}\" --write"
+		"format": "prettier \"app/**/*.{ts,js,json,scss,css}\" --write"
 	},
 	"dependencies": {
-		"angular": "^1.8.2",
-		"angular-animate": "^1.8.2",
-		"angular-aria": "^1.8.2",
-		"angular-material": "^1.2.2",
-		"angular-messages": "^1.8.2"
+		"angular": "^1.8.3",
+		"angular-animate": "^1.8.3",
+		"angular-aria": "^1.8.3",
+		"angular-material": "^1.2.5",
+		"angular-messages": "^1.8.3"
 	},
 	"devDependencies": {
-		"eslint": "^6.8.0",
-		"eslint-config-prettier": "^6.15.0",
-		"eslint-plugin-angular": "^4.0.1",
-		"eslint-plugin-prettier": "^3.3.1",
+		"eslint": "^8.24.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-angular": "^4.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
 		"husky": "^4.3.8",
 		"hygen": "^5.0.3",
 		"lint-staged": "^10.5.3",
-		"prettier": "^2.0.0",
+		"prettier": "^2.7.1",
 		"sass": "^1.32.8",
-		"vite": "^2.0.1"
+		"vite": "^3.1.4"
 	},
 	"husky": {
 		"hooks": {
