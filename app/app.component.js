@@ -3,6 +3,6 @@ export const AppComponent = {
 	template: `
 		<navbar></navbar>
 		<page-home></page-home>
-		<md-toolbar layout="column" layout-align="center center">Copyright © 2021 fyodor.io</md-toolbar>
+		<md-toolbar layout="column" layout-align="center center">Copyright © 2018-2022 fyodor.io</md-toolbar>
 	`,
 };
